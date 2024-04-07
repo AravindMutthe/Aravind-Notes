@@ -114,3 +114,31 @@
 # 10. Mounting
 
 Mounting refers to making a group of files in a file system structure accessible to users by attaching a root directory from one file system to that of another. It can be local or remote, where local mounting connects disk drivers to behave as a single logical system, and remote mount uses NFS (Network File System) to connect directories on other machines.
+
+# Ubuntu:
+
+* Ubuntu is an open source Linux operating systems that runs on desktops, laptops, server and other devices…
+
+* On Ubuntu, applications are available in two formats:
+
+    1. Snap packages
+    2. Debian packages.
+
+* If an app is available in both formats, Ubuntu Software list the snap apps first.
+
+
+# Uninstall Packages via Command Line
+
+1. list all installed package
+ >  sudo apt list --installed
+2. To remove a package you find on the list
+ >  sudo apt remove package_name
+3. To uninstall multiple packages
+ > sudo apt remove package_name_1 package_name_2
+4. To completely remove packages and their configuration settings file
+ > sudo apt purge package_name
+5. to list snap packages
+ >snap list
+6. to remove snap packages
+ > sudo snap remove package_name
+
