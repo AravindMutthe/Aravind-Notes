@@ -7,6 +7,7 @@
 ###  2. Containerization Notes
   - [Docker/Kubernetes/Openshift](docker-kub-openshift.md)
   - [Kubernetes Vs Openshift](Openshift-Kubernetees.md)
+  - [Container Images](Container-Images.md)
 #### 3. Git/Github Notes
   - [Git/Github setup process](Git-and-GitHubsetup_Process.md)
   - [Git/Github Commands](Git-Github-commands.md)
