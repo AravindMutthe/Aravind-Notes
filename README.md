@@ -2,8 +2,8 @@
 
 ###  1. Linux notes
   - [Linux Notes](#linux-notes)
-###  2. JAVA NOTES
-###  3. C/C++ NOTES
-###  4. PYTHON NOTES
-###  5. DOCKER NOTES
+###  2. Java notes
+###  3. C/C++ notes
+###  4. Python notes
+###  5. Docker notes
 #### . [Git/Github setup process](Git-and-GitHubsetup_Process.md)
