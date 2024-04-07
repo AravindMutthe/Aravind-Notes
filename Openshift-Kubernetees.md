@@ -28,6 +28,31 @@
 - **Kubernetes:** Integrates with the Docker registry for container-image management.
 - **OpenShift:** Offers an integrated image registry called Image Streams, facilitating easier and more secure management of container images. It also offers templates and CI/CD capabilities.
 
+# Updates
+
+- **Kubernetes:** Allows multiple upgrades by invoking the `kubeadm upgrade` command.
+- **OpenShift:** Difficult to perform multiple upgrades. To install the most recent version of OpenShift, before upgrading Kubernetes, you need to access the Red Hat Enterprise Linux package management system. Be sure to backup all existing installation files.
+
+# Security
+
+- **Kubernetes:** Utilizes concepts like Network Policies for network security and Role-Based Access Control (RBAC) for access control.
+- **OpenShift:** Implements a security model based on Kubernetes but adds additional layers such as Security Context Constraints (SCC) and OAuth for enhanced security.
+
+# Router vs Ingress
+
+- **Kubernetes:** Utilizes Ingress resources to expose HTTP and HTTPS routes from outside the cluster to services within the cluster.
+- **OpenShift:** Uses a routing layer built on top of Kubernetes Ingress, known as OpenShift Router, to route external traffic to internal services. It offers additional features like session affinity, TLS termination, and more.
+
+# Integrated CI/CD
+
+- **Kubernetes:** Provides building blocks for CI/CD pipelines, but users typically need to integrate third-party tools or create custom solutions.
+- **OpenShift:** Offers integrated CI/CD capabilities through features like Source-to-Image (S2I), Jenkins pipelines, and built-in integration with Git repositories. It simplifies the process of building, deploying, and managing applications.
+
+# Templates & Helm
+
+- **Kubernetes:** Utilizes Helm, a package manager for Kubernetes, to define, install, and manage applications as Helm charts.
+- **OpenShift:** Provides similar capabilities with its built-in template system, allowing users to define reusable application templates containing configuration parameters. It simplifies application deployment and management tasks.
+
 It's worth noting that OpenShift builds on top of Kubernetes, providing additional features and functionalities tailored for enterprise needs. The choice between Kubernetes and OpenShift depends on factors such as the level of support, ease of installation, user interface preferences, and specific requirements of the organization.
 
 # openshift
@@ -53,29 +78,18 @@ These resources include things like SELinux, Linux namespaces, and control group
 
         kubernetes                                                             openshift
 
-**Platform Support:** can be installed on almost any Linux distribution       Red Hat CoreOS for the masternodes , CoreOS or RHEL for workernodes
+- **Platform Support:** can be installed on almost any Linux distribution       Red Hat CoreOS for the masternodes , CoreOS or RHEL for workernodes
 
-**Installation:** offers a variety of installation tools, including kubeadm, kops,    OpenShift has different installation procedures for different versions
+- **Installation:** offers a variety of installation tools, including kubeadm, kops,    OpenShift has different installation procedures for different versions
     and kube-spray. Some tools are designed especially for the cloud
 
-**User Interface:** a complex web-based interface, which is not generally recommended   web-based console that comes with a one-touch login page.
+- **User Interface:** a complex web-based interface, which is not generally recommended   web-based console that comes with a one-touch login page.
     for novices. To access the interface, users need to first install       The OpenShift console provides a simple form-based interface
     the official Kubernetes Dashboard and then forward the port address  that enables users to easily change, delete, and add resources.
     of their local machine to the cluster server by using kube-proxy.
     However, the dashboard does not have a login page
 
-**Updates:** lets you perform multiple upgrades,               difficult to perform mulyiple upgrades.
-    you only need to invoke the kubeadm upgrade command,       To install the most recent version of OpenShift,
-    Before upgrading Kubernetes,                 you need to access the Red Hat Enterprise Linux package management system.
-    be sure to backup all existing installation files.
-Security
-Router vs Ingress
-Integrated CI/CD
-Templates     Helm                     template
-**Networking:**   does not provide a complete networking solution provide a complete networking solution
-Container-
--Image Management; Kubernetes integrates with the Docker registry.     OpenShift offers the use of an integrated image registry called Image Streams
-    kubernetes does not provide a dedicated resource that     which enables easier, more secure management of container images.
-    can help you manage the workflow of building container images.  This registry offers a console that allows users to search for
-    Kubernetes users build images using the Docker build command.  information about image streams and images within a cluster.
-                     Image Streams lets users download entire images and locally modify them without having to use external tools
+- **Updates:** lets you perform multiple upgrades,difficult to perform mulyiple upgrades.
+    you only need to invoke the kubeadm upgrade command, To install the most recent version of OpenShift,Before upgrading Kubernetes, you need to access the Red Hat Enterprise Linux package management system.be sure to backup all existing installation files.
+
+- **Networking:**   does not provide a complete networking solution provide a complete networking solution Container- -Image Management; Kubernetes integrates with the Docker registry.    OpenShift offers the use of an integrated image registry called Image Streams kubernetes does not provide a dedicated resource that  which enables easier, more secure management of container images.can help you manage the workflow of building container images.  This registry offers a console that allows users to search for Kubernetes users build images using the Docker build command. information about image streams and images within a cluster.Image Streams lets users download entire images and locally modify them without having to use external tools
