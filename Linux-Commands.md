@@ -1,3 +1,17 @@
+# Linux commands classified into 2 categories
+
+##### Internal (Shell) commands
+
+- Built-in commands of the shell.
+- Accessed directly from the shell environment.
+
+##### External (Kernel) commands
+
+- Executable programs stored in specific directories (/bin or /sbin).
+- Accessed via the shell by searching the directories listed in the PATH variable.
+
+***"type" is used to find out whether a command is internal or external?***
+> **Example: type cd**
 # Internal vs External commands:
 
 - Internal cmds are directly executed by the shell. No separate process is there to run these commands.
@@ -157,27 +171,14 @@
 - **uniq**: Remove duplicate lines from a sorted file.
 - **tr**: Translate or delete characters.
 
-# 8. Linux commands classified into 2 categories
 
-##### Internal (Shell) commands
 
-- Built-in commands of the shell.
-- Accessed directly from the shell environment.
-
-##### External (Kernel) commands
-
-- Executable programs stored in specific directories (/bin or /sbin).
-- Accessed via the shell by searching the directories listed in the PATH variable.
-
-***"type" is used to find out whether a command is internal or external?***
-> **Example: type cd**
-
-# 9. How to control System and Services on a system running systemd
+# 8. How to control System and Services on a system running systemd
 
 - **systemctl**: Utility for controlling systemd system and service manager.
 - **Systemd**: A collection of system management daemons, utilities, and libraries serving as a replacement for System V init daemon.
 
-# 10. Mounting
+# 9. Mounting
 
 Mounting refers to making a group of files in a file system structure accessible to users by attaching a root directory from one file system to that of another. It can be local or remote, where local mounting connects disk drivers to behave as a single logical system, and remote mount uses NFS (Network File System) to connect directories on other machines.
 
