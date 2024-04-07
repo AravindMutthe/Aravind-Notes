@@ -11,3 +11,6 @@
 #### 6. Git/Github Notes
   - [Git/Github setup process](Git-and-GitHubsetup_Process.md)
   - [Git/Github Commands](Git-Github-commands.md)
+### Containerization Notes
+  - [Docker/Kubernetes/Openshift](docker-ku-openshift.md)
+  - 
