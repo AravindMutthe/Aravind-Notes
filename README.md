@@ -1,7 +1,7 @@
 # Index
 
 ###  1. Linux notes
-  - [Linux File System](Linux-File-Systesm.md)
+  - [Linux File System](Linux-File-System.md)
   - [Linux Commands Overview](Linux-Commands.md)
   - [Meomry Management in OS](Memory-Management.md)
 ###  2. Java Notes
