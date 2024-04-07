@@ -1,4 +1,4 @@
-# 1. GIT COMMANDS
+# 1. GIT
 
 * Git was designed and developed by Linus Torvalds for Linux kernel development.
 * Git provides support for non-linear, distributed development, allowing multiple contributors to work on a project simultaneously.
