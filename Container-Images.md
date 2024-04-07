@@ -18,9 +18,12 @@
 - Containers themselves have port numbers.
 - If you want to access an application inside a container via a port number, you need to map the port number of the container to the port number of the Docker host.
 
-   > `sudo docker inspect PCM` // Gives all port details
-   > `sudo docker run -p docker_host_port_num:container_port_num container/image`
-   > Example: `sudo docker run -p 8080:8080 -p 50000:50000 pcm`
+```sh
+   > sudo docker inspect PCM #Gives all port details
+   > sudo docker run -p docker_host_port_num:container_port_num container/image
+   > Example: 
+   > sudo docker run -p 8080:8080 -p 50000:50000 pcm
+```
 
 ## 2. Dockerfile
 
