@@ -13,4 +13,4 @@
   - [Git/Github Commands](Git-Github-commands.md)
 ### Containerization Notes
   - [Docker/Kubernetes/Openshift](docker-kub-openshift.md)
-  - 
+  - [Kubernetes Vs Openshift](Openshift-Kubernetees.md)
