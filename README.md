@@ -1,2 +1,3 @@
-# Aravind-Notes
-Notes that i have prepared for myself
+# Notes Index
+1. [Linux Notes](#linux-notes)
+2. [Git/Github setup process](Git-and-GitHubsetup_Process.md)
