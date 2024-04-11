@@ -13,8 +13,8 @@
   - [Git/Github Commands](Git-Github-commands.md)
 ###  5. Programming
 ####  1. Java Notes
-  -[OOPS in Java](Git-Github-commands.md)
-  -[-Java Coding Questions](Git-Github-commands.md)
-  -[Git/Github Commands](Git-Github-commands.md)
+  - [OOPS in Java](Git-Github-commands.md)
+  - [-Java Coding Questions](Git-Github-commands.md)
+  - [Git/Github Commands](Git-Github-commands.md)
 ####  2. C/C++ Notes
 ####  3. Python Notes
