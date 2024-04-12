@@ -12,7 +12,7 @@
   - [Git/Github setup process](Git-and-GitHubsetup_Process.md)
   - [Git/Github Commands](Git-Github-commands.md)
 ###  5. Programming
-    ####  i. Java Notes
+####  i. Java Notes
   - [OOPS in Java](oops-java.md)
   - [Java Coding Questions](Git-Github-commands.md)
   - [Git/Github Commands](Git-Github-commands.md)
